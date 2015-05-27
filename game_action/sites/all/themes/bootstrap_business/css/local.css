@@ -1,0 +1,70 @@
+/* Custom CSS overrides */
+body{
+	font-family: helvetica;
+	color: #000;
+}
+
+/* Hoofding */
+/* links boven rechts */
+#block-menu-menu-links .menu{
+	margin-top: -80px;
+	float: right;
+}
+
+#header ul.menu li a{
+	color:black;
+}
+
+/* Navigatie consoles */
+.navigatie_consoles ul li{
+	display: inline-block; 
+	border: none;
+}
+
+#main-navigation{
+	background-color: #0098DA;
+}
+
+#main-navigation ul.menu li a{
+	color: white;
+	border-right: 1px solid #FFF;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: normal;
+	font-size: 120%;
+}
+
+#main-navigation ul.menu li a:hover, .menu li a .active-trail{
+	color: white;
+	background-color: #C41230;
+}
+
+#block-menu-menu-menu-consoles{
+	width: 900px;
+	color:black;
+	display: inline-block;
+}
+
+/* Zoekfunctie */
+#block-search-form{
+	width: 200px;
+	float: right;
+	display: inline;
+}
+
+/* HOME */
+/* Carousel */
+.carousel img{
+	width: 100%;
+}
+
+/* Content */
+.node.node-teaser, .page-node- #content-wrapper {
+	border: none;
+}
+
+/* OVER ONS */
+/* Afbeelinding syntra */
+
+
