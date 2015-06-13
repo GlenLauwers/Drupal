@@ -1,7 +1,0 @@
-name = "Hello All"
-description = "Een module om een begroeting te tonen in een drupal-site."
-core = "7.x"
-package = "Custom modules"
-dependencies[]= ctools
-;files[] =
-;configure = 

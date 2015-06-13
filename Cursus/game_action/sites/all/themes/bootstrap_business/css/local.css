@@ -1,0 +1,184 @@
+/* Custom CSS overrides */
+body{
+	font-family: helvetica;
+	color: #000;
+	background-color: white;
+}
+
+.page-node- #content-wrapper{
+	background-color: white;
+}
+/* Hoofding */
+#logo{
+	margin-top: 20px;
+}
+/* links boven rechts */
+#block-menu-menu-links .menu{
+	float: right;
+}
+
+#block-menu-menu-links .menu .last a{
+	padding-right: 0px;
+}
+
+#header ul.menu li a{
+	color:black;
+	font-size: 110%;
+}
+
+#block-menu-menu-links{
+	width: 600px;
+	margin-top: -80px;
+	float: right;
+}
+
+#block-welcome-username-welcome-username{
+	float: right;
+	margin-top: -30px;
+	font-size: 110%;
+}
+
+/* Navigatie consoles */
+.navigatie_consoles ul li{
+	display: inline-block; 
+	border: none;
+}
+
+#main-navigation{
+	background-color: #0098DA;
+}
+
+#main-navigation ul.menu li a{
+	color: white;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-weight: normal;
+	font-size: 120%;
+}
+
+#main-navigation ul.menu li a:hover, #block-menu-menu-menu-consoles .active-trail{
+	color: white;
+	background-color: #C41230;
+}
+
+#block-menu-menu-menu-consoles{
+	width: 900px;
+	color:black;
+	display: inline-block;
+}
+
+#main-navigation ul.menu li {
+	border-right: 1px solid #FFF;
+	margin-left: -4px;
+}
+
+/* Zoekfunctie */
+#block-search-form{
+	width: 200px;
+	float: right;
+	display: inline;
+	padding: 0;
+}
+/* HOME */
+.view-home{
+	margin-top: -60px;
+}
+table{
+	border:none;
+}
+.views-field-view{
+	margin-top: 30px;
+}
+.views-label{
+	font-size: 30px;
+	font-weight: bold;
+}
+/* Carousel */
+.carousel img{
+	margin-top: 30px;
+	width: 100%;
+}
+
+/* Content */
+.node.node-teaser, .page-node- #content-wrapper {
+	border: none;
+}
+
+#top-content, #banner-inside, #header, #block-menu-menu-links{
+	padding: 0;
+}
+
+#footer{
+	background-color: #0098DA;
+	margin-top: -60px;
+}
+
+#footer a{
+		color: white;
+	font-size: 20px;
+}
+
+#footer li{
+	border: none;
+	list-style-type: none;
+}
+
+#footer-inside .col-md-3 img{
+	margin-top: 70px;
+	max-width: 300px;
+}
+
+#subfooter{
+	display: none;
+}
+
+.page-node.page-node- #content-wrapper h1.page-title{
+	padding-left: 0px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #0098DA;
+}
+
+.field-name-commerce-price{
+	padding: 20px 0 20px 0;
+	font-size: 30px;
+}
+
+.field-name-field-release-datum .field-label{
+	font-weight: normal;
+}
+
+.field-name-field-beschrijving .field-label, .field-name-field-trailer .field-label, .field-name-field-screenshots .field-label{
+	padding: 20px 0 5px 0;
+	font-size: 25px;
+	border-bottom: 1px solid #0098DA;
+}
+
+.field-name-field-beschrijving .field-item, .field-name-field-trailer .field-item, .field-name-field-screenshots .field-item{
+	padding-top: 10px;
+}
+
+.field-name-field-cover img, iframe{
+	border: thick solid #0098DA;
+}
+
+.field-name-field-screenshots .field-item{
+	width: 220px;
+	margin: 0;
+	display: inline;
+}
+
+.field-name-field-screenshots .field-item a img{
+	margin: 10px 5px 0 5px;
+	display: inline;
+	min-width: 250px; 
+	border: thick solid #0098DA;
+}
+
+.group-header{
+	margin-top: 10px;
+}
+
+iframe{
+	margin-left: 25%;
+}
