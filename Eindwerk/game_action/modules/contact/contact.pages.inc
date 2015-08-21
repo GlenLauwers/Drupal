@@ -64,21 +64,21 @@ function contact_site_form($form, &$form_state) {
   $form['#attributes']['class'][] = 'contact-form';
   $form['name'] = array(
     '#type' => 'textfield',
-    '#title' => t('Naam:'),
+    '#title' => t('Your name'),
     '#maxlength' => 255,
     '#default_value' => $user->uid ? format_username($user) : '',
     '#required' => TRUE,
   );
   $form['mail'] = array(
     '#type' => 'textfield',
-    '#title' => t('E-mailadres:'),
+    '#title' => t('Your e-mail address'),
     '#maxlength' => 255,
     '#default_value' => $user->uid ? $user->mail : '',
     '#required' => TRUE,
   );
   $form['subject'] = array(
     '#type' => 'textfield',
-    '#title' => t('Onderwerp:'),
+    '#title' => t('Subject'),
     '#maxlength' => 255,
     '#required' => TRUE,
   );
@@ -92,20 +92,20 @@ function contact_site_form($form, &$form_state) {
   );
   $form['message'] = array(
     '#type' => 'textarea',
-    '#title' => t('Uw bericht:'),
+    '#title' => t('Message'),
     '#required' => TRUE,
   );
   // We do not allow anonymous users to send themselves a copy
   // because it can be abused to spam people.
   $form['copy'] = array(
     '#type' => 'checkbox',
-    '#title' => t('Verzend een mail naar uw E-mailadres'),
+    '#title' => t('Send yourself a copy.'),
     '#access' => $user->uid,
   );
   $form['actions'] = array('#type' => 'actions');
   $form['actions']['submit'] = array(
     '#type' => 'submit',
-    '#value' => t('Verzend bericht'),
+    '#value' => t('Send message'),
   );
 
   return $form;
